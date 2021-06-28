@@ -107,7 +107,7 @@ a {
     left: 3.5%;
   }
 }
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media (max-device-width : 360px) {
   h1, h4 {
     position: relative;
     left: 10%;

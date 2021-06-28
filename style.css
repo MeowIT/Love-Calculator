@@ -107,7 +107,7 @@ a {
     left: 3.5%;
   }
 }
-@media (max-width: 900px) {
+@media (max-width: 600px) {
   h1, h4 {
     position: relative;
     left: 10%;

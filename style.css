@@ -1,0 +1,143 @@
+body {
+  background-color: #3EDBF0;
+  text-align: center;
+  padding: 0;
+}
+
+h1 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 20rem;
+  color: #FF96AD;
+  margin: auto;
+}
+
+h4 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 5rem;
+  color: #f9f9f9;
+  margin: auto;
+  position: relative;
+  bottom: 8rem;
+}
+
+.text {
+  position: relative;
+  width: 60rem;
+  left: 26%;
+  bottom: 8rem;
+}
+
+p {
+  font-family: 'Amatic SC', cursive;
+  color: #FFF5FD;
+  font-size: 2rem;
+}
+
+.calculation {
+  margin-top: 6rem;
+}
+
+input {
+  text-align: center;
+  height: 5rem;
+  border-radius: 25px;
+  border: solid 1px #FF96AD;
+  font: 1.8em/1.25em 'Amatic SC', cursive;
+  outline: none;
+}
+
+.input1 {
+  position: relative;
+  right: 10%;
+}
+
+.input2 {
+  position: relative;
+  left: 10%;
+}
+
+.input3 {
+  margin-top: 4rem;
+}
+
+a {
+  text-align: center;
+  text-decoration: none;
+  border: 3px solid #FF96AD;
+  color: pink;
+  background-color: #f9f9f9;
+  padding: 1rem;
+  font-size: 28px;
+  font-family: sans-serif;
+  letter-spacing: 5px;
+  transition: all 0.5s;
+  position: relative;
+}
+
+
+
+@media (max-width: 1028px) {
+  h1, h4 {
+    position: relative;
+    left: 6%;
+  }
+
+  .text {
+    width: 50rem;
+    left: 15%;
+    bottom: 8rem;
+  }
+
+  .input2 {
+    position: relative;
+    left: 6%;
+  }
+
+  .input1 {
+    left: 0.01px;
+  }
+
+  .input3 {
+    position: relative;
+    left: 4%;
+  }
+
+  a {
+    position: relative;
+    left: 3.5%;
+  }
+}
+@media (max-width: 900px) {
+  h1, h4 {
+    position: relative;
+    left: 10%;
+  }
+
+  .text {
+    width: 50rem;
+    left: 15%;
+    bottom: 8rem;
+  }
+  .input1 {
+    margin-left: 4.4rem;
+  }
+
+  .input2 {
+    position: relative;
+    margin-top: 5rem;
+
+  }
+
+
+  .input3 {
+    position: relative;
+    margin-left:2.7rem;
+  }
+
+  a {
+    position: absolute;
+    z-index: 1;
+    margin-top: 30rem;
+    margin-left: 14rem;
+  }
+}
